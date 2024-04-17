@@ -52,7 +52,7 @@ get_id(void *buffer)
 int
 main (int argc, char *argv[])
 {
-	int udp_socket;
+  int udp_socket;
   struct sockaddr_in addr;
 
 	udp_socket = socket(AF_INET, SOCK_DGRAM, IPPROTO_UDP);
